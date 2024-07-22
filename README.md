@@ -22,7 +22,7 @@ pod 'IQTextView'
 
 ## Author
 
-hackiftekhar, ideviftekhar@gmail.com
+Iftekhar Qurashi hack.iftekhar@gmail.com
 
 ## License
 

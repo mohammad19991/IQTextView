@@ -1,0 +1,16 @@
+PODS:
+  - IQTextView (1.0.0)
+
+DEPENDENCIES:
+  - IQTextView (from `../`)
+
+EXTERNAL SOURCES:
+  IQTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IQTextView: 6a7a0c8468b26ee0d08da0dca22a208af7f66fa5
+
+PODFILE CHECKSUM: 342048df90db6d8f376dab1e03b4215b2895b15a
+
+COCOAPODS: 1.15.2

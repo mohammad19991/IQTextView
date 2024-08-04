@@ -23,12 +23,6 @@
 
 import UIKit
 
-// If added using IQKeyboardToolbar sub-specs
-#if canImport(IQKeyboardToolbar)
-@available(iOSApplicationExtension, unavailable)
-extension IQTextView: IQPlaceholderable { }
-#endif
-
 /** @abstract UITextView with placeholder support   */
 @available(iOSApplicationExtension, unavailable)
 @MainActor

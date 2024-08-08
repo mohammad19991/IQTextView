@@ -4,10 +4,10 @@ platform :ios, '13.0'
 
 target 'IQTextView_Example' do
   pod 'IQTextView', :path => '../'
-
-  target 'IQTextView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
+
+target 'IQTextView_ObjcExample' do
+  pod 'IQTextView', :path => '../'
+end
+
+

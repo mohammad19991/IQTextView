@@ -1,5 +1,4 @@
 import XCTest
-import IQTextView
 
 class Tests: XCTestCase {
     

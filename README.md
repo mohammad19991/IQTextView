@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/IQTextView.svg?style=flat)](https://cocoapods.org/pods/IQTextView)
 [![Platform](https://img.shields.io/cocoapods/p/IQTextView.svg?style=flat)](https://cocoapods.org/pods/IQTextView)
 
+![Screenshot](https://raw.githubusercontent.com/hackiftekhar/IQTextView/master/Screenshot/IQTextViewScreenshot.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -53,7 +53,7 @@
 		72C5A9CFA0E6228E1D3F646A /* Pods-IQTextView_ObjcExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQTextView_ObjcExample.release.xcconfig"; path = "Target Support Files/Pods-IQTextView_ObjcExample/Pods-IQTextView_ObjcExample.release.xcconfig"; sourceTree = "<group>"; };
 		A5794A6EA47888FFB6DE3983 /* Pods-IQTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-IQTextView_Example/Pods-IQTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AABB39E44361650FC113ABAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C01ED1472C6A40AF004BA157 /* IQTextView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQTextView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01ED1472C6A40AF004BA157 /* IQTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01ED1552C6A411B004BA157 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
 		C01ED1562C6A411B004BA157 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C01ED1582C6A411B004BA157 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				607FACD01AFB9204008FA782 /* IQTextView_Example.app */,
 				607FACE51AFB9204008FA782 /* IQTextView_Tests.xctest */,
 				C0619FCC2C64DD6C00ED1F7D /* IQTextView_ObjcExample.app */,
-				C01ED1472C6A40AF004BA157 /* IQTextView_iOS.framework */,
+				C01ED1472C6A40AF004BA157 /* IQTextView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			);
 			name = "IQTextView-iOS";
 			productName = "IQTextView-iOS";
-			productReference = C01ED1472C6A40AF004BA157 /* IQTextView_iOS.framework */;
+			productReference = C01ED1472C6A40AF004BA157 /* IQTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C0619FCB2C64DD6C00ED1F7D /* IQTextView_ObjcExample */ = {
@@ -800,7 +800,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.infoenum.IQTextView-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = IQTextView;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -844,7 +844,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.infoenum.IQTextView-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = IQTextView;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

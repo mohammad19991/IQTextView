@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C01ED1462C6A40AF004BA157"
-               BuildableName = "IQTextView.framework"
-               BlueprintName = "IQTextView"
+               BuildableName = "IQTextView_iOS.framework"
+               BlueprintName = "IQTextView-iOS"
                ReferencedContainer = "container:IQTextView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,8 +50,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C01ED1462C6A40AF004BA157"
-            BuildableName = "IQTextView.framework"
-            BlueprintName = "IQTextView"
+            BuildableName = "IQTextView_iOS.framework"
+            BlueprintName = "IQTextView-iOS"
             ReferencedContainer = "container:IQTextView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

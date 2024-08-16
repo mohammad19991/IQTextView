@@ -46,6 +46,20 @@ import UIKit
     private func setup() {
         NotificationCenter.default.addObserver(self, selector: #selector(self.refreshPlaceholder),
                                                name: UITextView.textDidChangeNotification, object: self)
+
+        do {
+            placeholderLabel.frame = placeholderExpectedFrame
+            placeholderLabel.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            placeholderLabel.lineBreakMode = .byWordWrapping
+            placeholderLabel.numberOfLines = 0
+            placeholderLabel.font = self.font
+            placeholderLabel.textAlignment = self.textAlignment
+            placeholderLabel.backgroundColor = UIColor.clear
+            placeholderLabel.isAccessibilityElement = false
+            placeholderLabel.textColor = UIColor.placeholderText
+            self.addSubview(placeholderLabel)
+            refreshPlaceholder()
+        }
     }
 
     private var placeholderInsets: UIEdgeInsets {
@@ -65,24 +79,7 @@ import UIKit
         return CGRect(x: insets.left, y: insets.top, width: maxWidth, height: expectedSize.height)
     }
 
-    public private(set) lazy var placeholderLabel: UILabel = {
-        let label = UILabel()
-
-        label.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        label.lineBreakMode = .byWordWrapping
-        label.numberOfLines = 0
-        label.font = self.font
-        label.textAlignment = self.textAlignment
-        label.backgroundColor = UIColor.clear
-        label.isAccessibilityElement = false
-        label.textColor = UIColor.placeholderText
-        label.alpha = 0
-        self.addSubview(label)
-
-        return label
-    }()
-
-//    public let placeholderLabel: UILabel = .init()
+    public let placeholderLabel: UILabel = .init()
 
     /** @abstract To set textView's placeholder text color. */
     @IBInspectable open var placeholderTextColor: UIColor? {
@@ -162,18 +159,6 @@ import UIKit
     open override var textAlignment: NSTextAlignment {
         didSet {
             placeholderLabel.textAlignment = textAlignment
-        }
-    }
-
-    weak open override var delegate: (any UITextViewDelegate)? {
-
-        get {
-            refreshPlaceholder()
-            return super.delegate
-        }
-
-        set {
-            super.delegate = newValue
         }
     }
 

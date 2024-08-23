@@ -19,11 +19,4 @@ class ViewController: UIViewController {
         textView.contentInset = .init(top: 8, left: 8, bottom: 8, right: 8)
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-

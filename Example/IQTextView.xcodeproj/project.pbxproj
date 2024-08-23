@@ -55,8 +55,6 @@
 		AABB39E44361650FC113ABAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C01ED1472C6A40AF004BA157 /* IQTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01ED1552C6A411B004BA157 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
-		C01ED1562C6A411B004BA157 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		C01ED1582C6A411B004BA157 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C01ED1592C6A411B004BA157 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		C0388E232C4E41BB005169D4 /* IQTextView.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = IQTextView.podspec.json; path = ../IQTextView.podspec.json; sourceTree = "<group>"; };
 		C0619FCC2C64DD6C00ED1F7D /* IQTextView_ObjcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQTextView_ObjcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				C01ED1552C6A411B004BA157 /* IQTextView.swift */,
-				C01ED1562C6A411B004BA157 /* .gitkeep */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -225,7 +222,6 @@
 		C01ED1572C6A411B004BA157 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C01ED1582C6A411B004BA157 /* .gitkeep */,
 				C01ED1592C6A411B004BA157 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Assets;
@@ -270,6 +266,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				C0620C412C746B7F006AE1CE /* Swiftlint */,
 				B32072944ACC4390D8FEA784 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -506,6 +503,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQTextView_Example/Pods-IQTextView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C0620C412C746B7F006AE1CE /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

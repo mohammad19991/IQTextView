@@ -1,16 +1,23 @@
 PODS:
-  - IQTextView (1.0.0)
+  - IQTextView (1.0.1)
+  - SwiftLint (0.56.1)
 
 DEPENDENCIES:
   - IQTextView (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   IQTextView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IQTextView: 6a7a0c8468b26ee0d08da0dca22a208af7f66fa5
+  IQTextView: a6dac50cd471257bcee8852b638b73044ff5d22c
+  SwiftLint: c5fa0b7eece474d43d2178b581a1242a16267347
 
-PODFILE CHECKSUM: 4f67bd979d51945949e4a7bb09083bd2ca46c32a
+PODFILE CHECKSUM: 85401901f7fe1edd6eeb19abf6999b16aa32ba1a
 
 COCOAPODS: 1.15.2

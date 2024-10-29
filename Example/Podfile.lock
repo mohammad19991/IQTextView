@@ -2,7 +2,7 @@ PODS:
   - IQKeyboardCore (1.0.7)
   - IQKeyboardToolbar/Placeholderable (1.1.1):
     - IQKeyboardCore
-  - IQTextView (1.0.1):
+  - IQTextView (1.0.4):
     - IQKeyboardToolbar/Placeholderable
   - SwiftLint (0.56.1)
 
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   IQKeyboardCore: cb7f0a9a17dd32599569f2f478c1418dc28bcebb
   IQKeyboardToolbar: d4bdccfb78324aec2f3920659c77bb89acd33312
-  IQTextView: 4c145cf3992906738d2e2134276ade4435996291
+  IQTextView: 15d256b60fb5d8decf1c859b93efb6f54cad5196
   SwiftLint: c5fa0b7eece474d43d2178b581a1242a16267347
 
 PODFILE CHECKSUM: 85401901f7fe1edd6eeb19abf6999b16aa32ba1a
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.0

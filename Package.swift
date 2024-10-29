@@ -13,8 +13,12 @@ let package = Package(
             targets: ["IQTextView"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/hackiftekhar/IQKeyboardToolbar.git", from: "1.1.1"),
+    ],
     targets: [
         .target(name: "IQTextView",
+                dependencies: ["IQKeyboardToolbar"],
             path: "IQTextView",
             resources: [
                 .copy("Assets/PrivacyInfo.xcprivacy")
